@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        th,td {
+            border: 1px solid black;
+        }
+
+        tfoot {
+            background-color:skyblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas</h1>
+
+    <table>
+        <thead> <!--Representa o cabecalho-->
+            <tr><!--Representa a linha-->
+                <th>Produto</th><!--Representa a coluna-->
+                <th>Quantidade</th>
+                <th>Preço</th>
+                <th>Black Friday</th>
+            </tr>
+        </thead>
+
+        <tbody><!--Representa o corpo dos dados-->
+            <tr>
+                <td>Produto 1</td><!--Diz respeito a parte dos dados de cada coluna da tabela-->
+                <td>2</td>
+                <td>5$</td>
+                <td>Sim</td>
+                
+            </tr>
+            <tr>
+                <td>Produto 2</td><!--Diz respeito a parte dos dados de cada coluna da tabela-->
+                <td>5</td>
+                <td>10$</td>
+                <td>Sim</td>
+                
+            </tr>
+            <tr>
+                <td>Produto 3</td><!--Diz respeito a parte dos dados de cada coluna da tabela-->
+                <td>3</td>
+                <td>15$</td>
+                <td>Não</td>
+                
+            </tr>
+         
+        </tbody>
+        <tfoot> <!--Representa o rodapé-->
+            <tr>
+                <td colspan="3">Total</td>
+                <td>30$</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
